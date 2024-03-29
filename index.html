@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Ubuntu&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="img/logo.jpeg" alt="logo" height="100" width="100"></div>
+            <div class="left">My Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pages/about.html">About</a></li>
+                    <li><a href="pages/contact.html">Contact Me</a></li>
+                    <li><a href="">Services</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Roshan</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="https://drive.google.com/file/d/1IVEJQN9k-mbz_Zwrlmrd2u-xheaKJiBA/view?usp=drivesdk"><button class="btn">Download Resume</button></a>
+                    <a href="https://github.com/roshan-coderwala"><button class="btn">Visit Github</button></a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="img/bg.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-grey">What I have done so far</span>
+            <h1>Work Experience</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="img/developer.webp" alt="">
+                    <div class="vertical-title">
+                        Web Developer
+                    </div>
+                    <div class="verticle-desc">
+                        I am a fresher in web devloping. I have basic knowledge of HTML,CSS and Java script. A web
+                        developer is a programmer who develops World Wide Web applications using a client-server
+                        model.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="img/graphic.png" alt="">
+                    <div class="vertical-title">
+                        Graphic Designer
+                    </div>
+                    <div class="verticle-desc">
+                        A graphic designer is a professional who practices the discipline of graphic design, either
+                        within companies or organizations or independently. I have three months of experience in Graphic
+                        Design.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="img/webdesign.png" alt="">
+                    <div class="vertical-title">
+                        Web Designer
+                    </div>
+                    <div class="verticle-desc">
+                        A web designer plans, designs and structures the layout of a website. This includes selecting
+                        the graphics, texts and images. They may build a new website or update an existing one to make
+                        it more efficient or attractive. I have eight months of experience in this field.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="img/videoeditor.png" alt="">
+                    <div class="vertical-title">
+                        Video Editor
+                    </div>
+                    <div class="verticle-desc">
+                        A video editor is someone who edits video footage and arranges it into a final product. They use
+                        video editing software and special effects to create a compelling visual story. I have one year
+                        of experience in this field.
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Roshan's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Web Design</li>
+                    <li>Creatives</li>
+                    <li>Graphic Design</li>
+                    <li>Sketch Design</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Privacy</li>
+                    <li>Condition</li>
+                    <li>Blog</li>
+                    <li>FAQs</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; roshanportfolio.com | All rights reserved
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Graphic Designer', 'Web Designer', 'Video Editor'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>

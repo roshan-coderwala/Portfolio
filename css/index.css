@@ -1,0 +1,82 @@
+@media only screen and (max-width: 1384px){
+
+    nav{
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 1050px;
+        height: 200px;
+        text-overflow: none;
+        
+        }
+    nav .logo{
+        flex-direction: column;
+    }
+    nav li{
+      flex-direction: column;
+      max-width: 100%;
+      text-overflow: none;
+    }
+    
+    .firstSection{
+        text-align: center;
+    }
+    
+    .leftSection{
+       width: 100px;
+       margin-left: 500px;
+    }
+    .rightSection img {
+       width: 400px;
+       margin-left: 150px;
+    }
+    
+    .secondSection {
+    flex-direction: column;
+    align-items: center;
+    line-height: 100%;
+    height: 120vh;
+    }
+    .secondSection .text-grey{
+        font-size: 20px;
+    }
+    .secondSection h1 {
+    padding-top: 20px;
+    font-size: 30px;
+    }
+    .secondSection .box{
+    flex-direction: column;
+    }
+    .secondSection .verticle-desc{
+        align-items: right;
+        position: relative;
+        left: 200px;
+        margin-top: -230px;
+        color: grey;
+        width: 550px;
+        font-size: 18px;
+        height: 140px;
+    }
+    .secondSection .image-top{
+        width: 90px;
+        position: relative;
+        top: 30px;
+        left: 20px;
+        height: 60px;
+    
+    }
+    .vertical-title {
+    position: relative;
+    top: 40px;
+    width: 150px;
+    font-size: 17px;
+    height: 140px;
+     }
+     footer{
+        width: 1050px;
+     }
+    .footer{
+        width: 800px;
+        display: flex;
+        justify-content: space-evenly;
+    } 
+    }

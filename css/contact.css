@@ -1,0 +1,172 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 110px;
+    background-color: rgb(18, 18, 62);
+}
+
+.logo {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 80%;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(153, 153, 226);
+    font-size: 1.01rem;
+}
+
+.contact {
+    height: 833px;
+}
+
+.text-center {
+    text-align: center;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+}
+
+.form {
+    max-width: 62%;
+    margin: 25px auto;
+    flex-basis: 48%;
+}
+
+.form-input {
+    margin: 14px 0;
+    padding: 5px 13px;
+    width: 100%;
+    font-size: 18px;
+    border: 2px solid grey;
+    border-radius: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.location {
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.location iframe {
+    width: 100%;
+}
+
+
+
+footer {
+    background-color: #0e0e1a;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 223px;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: grey;
+    padding: 12px;
+}
+
+
+
+@media only screen and (max-width: 837px) {
+
+    nav {
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 1050px;
+        height: 200px;
+        text-overflow: none;
+
+    }
+
+    nav .logo {
+        flex-direction: column;
+    }
+
+    nav li {
+        flex-direction: column;
+        max-width: 100%;
+        text-overflow: none;
+    }
+
+    .location {
+        padding-left: 100px;
+        width: 800px;
+    }
+
+    .contact {
+        padding-left: 10px;
+        width: 1000px;
+    }
+
+
+    footer {
+        width: 1050px;
+        margin-top: 200px;
+    }
+
+    .footer {
+        width: 800px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .footer-fourth {
+        padding-left: 100px;
+    }
+
+    .footer-third {
+        padding-left: 80px;
+    }
+
+
+}
